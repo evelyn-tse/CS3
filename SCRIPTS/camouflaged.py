@@ -190,7 +190,7 @@ image_filenames = [
 ]  
 
 # Write the results to a CSV file
-with open('../DATA/Cleaned Data/results.csv', 'w', newline='', encoding="utf8") as file:
+with open('../DATA/results.csv', 'w', newline='', encoding="utf8") as file:
     writer = csv.writer(file)
     # Write the header row
     writer.writerow(["filename","camouflaged","object_detected","label", "box", "match"])
@@ -244,6 +244,6 @@ with open('../DATA/Cleaned Data/results.csv', 'w', newline='', encoding="utf8") 
 
         # Display the result
         cv2.imshow('Object Detection', image)
-        cv2.waitKey(2000)  # Display each image for 0.5 seconds
+        cv2.waitKey(500)  # Display each image for 0.5 seconds
         cv2.destroyAllWindows()
 
