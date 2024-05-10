@@ -9,3 +9,6 @@ The necessary data is located in the "DATA" folder. This folder includes the ori
 
 ## Reference Materials
 The "Reference Materials" folder contains resources used to provide understanding of necessary concepts for this case study. It includes resources on context, data, and technical aspects of the case study. 
+
+## Scripts
+The necessary scripts to explore MobileNetSSD object detection in the given data is included in the "SCRIPTS" folder. 
